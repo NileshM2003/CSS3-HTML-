@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS layout || assignment</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .bx{
+            width: 100%;
+            /* flex-direction: row; */
+            display: flex; 
+            flex-wrap: wrap; 
+            justify-content: space-evenly;
+            margin-top: 10px;
+        }
+        .bx .thumb{
+            width: 480px;
+            height: 440px;
+            border: 1px solid black;
+        }
+        .bx img{
+            width: 100%;
+            /* height: inherit; */
+        }
+        .bx p{
+            text-align: justify;
+            font-size: 16px;
+            margin-bottom: 30px;
+            padding: 0px 10px;
+        
+
+
+        }
+        .bx a{
+            text-decoration: none;
+            color: black;
+            border: 1px solid black;
+            padding: 5px 10px;
+            margin-left: 10px;
+        }
+
+        #i{
+            margin-left: -5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bx">
+        <div class="thumb">
+            <img src="https://img.freepik.com/free-photo/luxurious-car-parked-highway-with-illuminated-headlight-sunset_181624-60607.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum explicabo excepturi, nesciunt
+                veritatis qui rerum optio maiores facere ad. Corporis alias repellat possimus quisquam porro.</p>
+                <a href="">View</a>
+                <a id="i" href="">edit</a>
+        </div>
+        <div class="thumb">
+            <img src="https://static.vecteezy.com/system/resources/previews/026/481/324/non_2x/the-world-of-classic-muscle-cars-with-this-captivating-4k-wallpaper-free-photo.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum explicabo excepturi, nesciunt
+                veritatis qui rerum optio maiores facere ad. Corporis alias repellat possimus quisquam porro.</p>
+                <a href="">View</a>
+                <a id="i" href="">edit</a>
+        </div>
+        <div class="thumb">
+            <img src="https://lh6.googleusercontent.com/proxy/TTul70hYZFqUQQWXIy4CbbbK25SO4ehmkpcJa2-1gcXnJAp2a7eNTIwEcxyUL2xQUkpeLsXzufZfIvOwmpo3PyNChObZCAePwlZyxPVdMbB3AXCz6JI4yRm13XeOv8Y=s0-d" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum explicabo excepturi, nesciunt
+                veritatis qui rerum optio maiores facere ad. Corporis alias repellat possimus quisquam porro.</p>
+                <a href="">View</a>
+                <a id="i" href="">edit</a>
+        </div>
+        <div class="bx .bx1">
+        <div class="thumb th1">
+            <img src="https://getwallpapers.com/wallpaper/full/2/2/b/1421643-most-popular-red-car-wallpaper-1920x1080-hd.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum explicabo excepturi, nesciunt
+                veritatis qui rerum optio maiores facere ad. Corporis alias repellat possimus quisquam porro.</p>
+                <a href="">View</a>
+                <a id="i" href="">edit</a>
+        </div>
+        <div class="thumb th1">
+            <img src="https://carsguide-res.cloudinary.com/image/upload/f_auto,fl_lossy,q_auto,t_cg_hero_large/v1/editorial/dp/albums/album-435/lg/lambo-super-gal-1.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum explicabo excepturi, nesciunt
+                veritatis qui rerum optio maiores facere ad. Corporis alias repellat possimus quisquam porro.</p>
+                <a href="">View</a>
+                <a id="i" href="">edit</a>
+        </div>
+        <div class="thumb th1">
+            <img src="https://cdn.wallpapersafari.com/51/46/Rfp5i1.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum explicabo excepturi, nesciunt
+                veritatis qui rerum optio maiores facere ad. Corporis alias repellat possimus quisquam porro.</p>
+                <a href="">View</a>
+                <a id="i" href="">edit</a>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
